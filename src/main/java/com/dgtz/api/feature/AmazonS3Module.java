@@ -41,13 +41,6 @@ public class AmazonS3Module {
     //final static AmazonS3 s3;
     private static String CACHE_CONTROL = "public, max-age=604800";
 
-    /*static {
-        AWSCredentials credentials = new BasicAWSCredentials("AKIAJS2SPQND7TWM2DZQ", "vyIdtzms4hjCtJefZYHmZ09zKEFke1NtWPKc0Vm4");
-        s3 = AmazonS3ClientBuilder
-                .standard()
-                .withRegion(Regions.EU_CENTRAL_1)
-                .withCredentials(new AWSStaticCredentialsProvider(credentials)).build();
-    }*/
 
     public EnumErrors uploadVideoFile(String filename, String filepath) {
 
